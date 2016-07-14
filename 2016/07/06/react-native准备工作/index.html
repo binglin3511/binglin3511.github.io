@@ -92,7 +92,7 @@
 <meta property="og:site_name" content="九征">
 <meta property="og:description" content="准备工作-安装Homebrew&amp;amp;&amp;amp;NodeJSreact-native依赖于NodeJS，可以通过Homebrew安装。MAC环境下brew默认已安装，Homebrew安装命令行如下：
 /usr/bin/ruby -e &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/insta">
-<meta property="og:updated_time" content="2016-07-06T09:06:38.000Z">
+<meta property="og:updated_time" content="2016-07-14T03:43:33.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="react-native准备工作">
 <meta name="twitter:description" content="准备工作-安装Homebrew&amp;amp;&amp;amp;NodeJSreact-native依赖于NodeJS，可以通过Homebrew安装。MAC环境下brew默认已安装，Homebrew安装命令行如下：
@@ -271,12 +271,25 @@
       
         <h2 id="准备工作-安装"><a href="#准备工作-安装" class="headerlink" title="准备工作-安装"></a>准备工作-安装</h2><h3 id="Homebrew-amp-amp-NodeJS"><a href="#Homebrew-amp-amp-NodeJS" class="headerlink" title="Homebrew&amp;&amp;NodeJS"></a>Homebrew&amp;&amp;NodeJS</h3><p>react-native依赖于NodeJS，可以通过<a href="http://brew.sh" target="_blank" rel="external">Homebrew</a>安装。MAC环境下brew默认已安装，Homebrew安装命令行如下：</p>
 <pre><code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
-</code></pre><p>安装NodeJs，react native依赖NodeJS版本4.0以上</p>
+</code></pre><p>安装NodeJs，react native依赖NodeJS版本4.0以上。</p>
 <pre><code>brew install node
 </code></pre><p>可能由于NodeJS版本问题导致第2步缺失文件，也可以在<a href="https://nodejs.org/en/" target="_blank" rel="external">官网</a>下载。</p>
-<h3 id="react-native命令行工具"><a href="#react-native命令行工具" class="headerlink" title="react native命令行工具"></a>react native命令行工具</h3><p>react native命令行工具能够方便快捷的新建项目</p>
+<h3 id="react-native命令行工具"><a href="#react-native命令行工具" class="headerlink" title="react native命令行工具"></a>react native命令行工具</h3><p>react native命令行工具能够方便快捷的新建项目。</p>
 <pre><code>npm install -g react-native-cli
-</code></pre>
+</code></pre><h3 id="React-Native新建工程"><a href="#React-Native新建工程" class="headerlink" title="React Native新建工程"></a>React Native新建工程</h3><p>使用React Native命令行工具，可以新建并运行项目，如下所示：</p>
+<pre><code>react-native init ReactTest
+cd ReactTest
+react-native run-ios
+</code></pre><h3 id="编辑React-Native-项目"><a href="#编辑React-Native-项目" class="headerlink" title="编辑React Native 项目"></a>编辑React Native 项目</h3><ul>
+<li>使用编辑器打开 <strong>index.ios.js</strong> 进行代码编写</li>
+<li>在iOS模拟器下使用快捷键 <strong>Command⌘ + R</strong> 刷新项目查看变化</li>
+</ul>
+<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul>
+<li>如果想在已有的项目中添加React Native代码，可以查看文档<a href="https://facebook.github.io/react-native/docs/integration-with-existing-apps.html" target="_blank" rel="external">Integration guide</a></li>
+<li>常见问题总结可以查看文档<a href="https://facebook.github.io/react-native/docs/troubleshooting.html#content" target="_blank" rel="external">Troubleshooting</a></li>
+<li>继续下一章，查看<a href="https://facebook.github.io/react-native/docs/tutorial.html" target="_blank" rel="external">Tutorial</a></li>
+</ul>
+
       
     </div>
 
@@ -392,7 +405,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#准备工作-安装"><span class="nav-number">1.</span> <span class="nav-text">准备工作-安装</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Homebrew-amp-amp-NodeJS"><span class="nav-number">1.1.</span> <span class="nav-text">Homebrew&&NodeJS</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#react-native命令行工具"><span class="nav-number">1.2.</span> <span class="nav-text">react native命令行工具</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#准备工作-安装"><span class="nav-number">1.</span> <span class="nav-text">准备工作-安装</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Homebrew-amp-amp-NodeJS"><span class="nav-number">1.1.</span> <span class="nav-text">Homebrew&&NodeJS</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#react-native命令行工具"><span class="nav-number">1.2.</span> <span class="nav-text">react native命令行工具</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#React-Native新建工程"><span class="nav-number">1.3.</span> <span class="nav-text">React Native新建工程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#编辑React-Native-项目"><span class="nav-number">1.4.</span> <span class="nav-text">编辑React Native 项目</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#其他"><span class="nav-number">1.5.</span> <span class="nav-text">其他</span></a></li></ol></li></ol></div>
             
           </div>
         </section>
